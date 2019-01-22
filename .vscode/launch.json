@@ -1,0 +1,19 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "chrome",
+            "request": "attach",
+            "name": "[attach] flymer-messenger",
+            "port": 9222,
+            "url": "chrome-extension://gmdjkiofagpdnlonpceponhmmdocepib/src/index.html",
+            "webRoot": "${workspaceFolder}"
+        },{
+            "type": "chrome",
+            "request": "launch",
+            "name": "[launch] flymer-messenger",
+            "url": "chrome-extension://gmdjkiofagpdnlonpceponhmmdocepib/src/index.html",
+            "webRoot": "${workspaceFolder}"
+        }
+    ]
+}
