@@ -1,0 +1,23 @@
+body {
+    min-width: 400px;
+    min-height: 200px;
+    max-height: 200px;
+    height: 200px;
+    margin: 1px;
+}
+
+.textEditor {
+    height: 100%;
+    resize: none;
+}
+
+.main {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    font-size: 125%;
+}
+
+#messageText {
+    margin: 2px;
+}
